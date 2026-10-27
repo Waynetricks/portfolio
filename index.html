@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Michael Marwa — PSEAH &amp; Safeguarding Consultant</title>
+<meta name="description" content="Michael Marwa is a Gender and Development Specialist and SEAH Accredited Investigator helping organizations prevent and respond to sexual exploitation, abuse, and harassment. Book a confidential consultation.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A3F4A'/%3E%3Ctext x='32' y='42' font-size='26' font-weight='700' text-anchor='middle' fill='%23fff' font-family='Arial,sans-serif'%3EMM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Serif+4:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--deep:#0A3F4A;--teal:#1E7C88;--mist:#EDF4F5;--ice:#D8E8EA;--ink:#13262B;--muted:#546A70;--line:#D6E1E3;--amber:#D9A23A;--sans:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;--serif:"Source Serif 4",Georgia,"Times New Roman",serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{font:400 16.5px/1.7 var(--sans);color:var(--ink);background:#fff;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+h1,h2,h3{font-family:var(--sans);font-weight:700;color:var(--deep);letter-spacing:-.025em;line-height:1.12}
+h1{font-size:clamp(2.6rem,5vw,4.3rem);font-weight:800;letter-spacing:-.035em}
+h2{font-size:clamp(1.9rem,3.2vw,2.7rem)}
+h3{font-size:1.2rem;letter-spacing:-.015em}
+p{max-width:62ch}
+.wrap{max-width:1160px;margin:0 auto;padding:0 28px}
+section{padding:104px 0}
+.lead{font:400 1.2rem/1.6 var(--serif);color:var(--muted);margin-top:20px}
+.btn{display:inline-block;font:600 .94rem var(--sans);text-decoration:none;padding:14px 28px;border-radius:999px;background:var(--deep);color:#fff;border:1.5px solid var(--deep);transition:background .25s,color .25s,border-color .25s,transform .25s}
+.btn:hover{background:var(--teal);border-color:var(--teal);transform:translateY(-2px)}
+.btn.out{background:transparent;color:var(--deep)}
+.btn.out:hover{background:var(--deep);color:#fff;border-color:var(--deep)}
+.btn.lt{background:#fff;color:var(--deep);border-color:#fff}
+.btn.lt:hover{background:var(--amber);border-color:var(--amber);color:var(--deep)}
+/* header */
+.top{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:800;font-size:1.08rem;color:var(--deep);letter-spacing:-.02em}
+.brand b{display:grid;place-items:center;width:38px;height:38px;border-radius:10px;background:var(--deep);color:#fff;font-size:.82rem;letter-spacing:0;transition:background .25s}
+.brand:hover b{background:var(--teal)}
+.links{display:flex;align-items:center;gap:32px}
+.links a:not(.btn){text-decoration:none;font-weight:500;font-size:.93rem;color:var(--ink);padding:6px 0;background:linear-gradient(var(--amber),var(--amber)) 0 100%/0 2px no-repeat;transition:background-size .25s,color .25s}
+.links a:not(.btn):hover{background-size:100% 2px;color:var(--teal)}
+.links .btn{padding:10px 22px;font-size:.88rem}
+/* hero */
+.hero{padding:76px 0 88px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:72px;align-items:center}
+.hero h1{margin-bottom:26px}
+.hero .lead{margin:0 0 36px;max-width:46ch}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.arch{position:relative;width:min(430px,100%);margin-left:auto}
+.arch::before{content:"";position:absolute;inset:30px -30px -30px 30px;background:var(--ice);border-radius:215px 215px 14px 14px;transition:inset .4s}
+.arch:hover::before{inset:20px -20px -20px 20px}
+.arch img{position:relative;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 12%;border-radius:215px 215px 14px 14px;background:var(--ice)}
+.badge{position:absolute;left:-34px;bottom:34px;background:#fff;padding:16px 20px 16px 18px;border-radius:12px;box-shadow:0 14px 34px rgba(10,63,74,.18);display:flex;gap:12px;align-items:center;max-width:250px;transition:transform .3s}
+.badge::before{content:"";flex:none;width:10px;height:10px;border-radius:50%;background:var(--amber);box-shadow:0 0 0 5px rgba(217,162,58,.22)}
+.badge b{display:block;font-size:.92rem;color:var(--deep);line-height:1.3}
+.badge span{font-size:.82rem;color:var(--muted)}
+.arch:hover .badge{transform:translateY(-4px)}
+/* works with */
+.band{background:var(--mist);padding:30px 0}
+.band .wrap{display:flex;align-items:center;gap:36px;flex-wrap:wrap}
+.band p{font-weight:600;color:var(--deep);max-width:none}
+.band ul{list-style:none;display:flex;flex-wrap:wrap;flex:1}
+.band li{padding:2px 24px;border-left:1px solid var(--line);font-size:.95rem;color:var(--muted)}
+/* about */
+.two{display:grid;grid-template-columns:5fr 7fr;gap:80px}
+.about .body p{font-size:1.06rem}
+.about .body p+p{margin-top:1.1rem}
+.vals{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:40px}
+.val{padding:22px 24px;border-radius:12px;border:1px solid var(--line);transition:background .25s,border-color .25s,transform .25s}
+.val:hover{background:var(--mist);border-color:var(--teal);transform:translateY(-3px)}
+.val b{display:block;font-size:1.05rem;color:var(--deep);margin-bottom:4px}
+.val span{font-size:.93rem;color:var(--muted);line-height:1.55;display:block}
+/* services */
+.services{background:var(--mist)}
+.services .two{align-items:start}
+.sticky{position:sticky;top:112px}
+details{border-bottom:1px solid var(--line);background:#fff;border-radius:0}
+details:first-of-type{border-top-left-radius:14px;border-top-right-radius:14px}
+details:last-of-type{border-bottom:0;border-bottom-left-radius:14px;border-bottom-right-radius:14px}
+details+details{border-top:0}
+summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:26px 30px;cursor:pointer;font-weight:700;font-size:1.18rem;letter-spacing:-.015em;color:var(--deep);transition:background .25s,color .25s}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";flex:none;display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--mist);font:500 1.4rem/1 var(--sans);color:var(--teal);transition:transform .3s,background .3s,color .3s}
+summary:hover{background:#F8FBFB;color:var(--teal)}
+summary:hover::after{background:var(--ice)}
+details[open] summary::after{transform:rotate(45deg);background:var(--deep);color:#fff}
+.dd{padding:0 30px 28px;max-width:60ch}
+.dd p{color:var(--muted);margin-bottom:14px}
+.dd a{font-weight:600;color:var(--deep);text-decoration:none;border-bottom:2px solid var(--amber);transition:color .2s,border-color .2s}
+.dd a:hover{color:var(--teal);border-color:var(--teal)}
+/* approach */
+.approach{background:var(--deep);color:#fff}
+.approach h2{color:#fff;max-width:20ch}
+.steps{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:56px;margin-top:68px;counter-reset:s}
+.steps::before{content:"";position:absolute;top:23px;left:23px;right:0;height:1px;background:rgba(255,255,255,.28)}
+.step{position:relative;counter-increment:s}
+.step::before{content:counter(s);position:relative;display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:var(--deep);border:1.5px solid var(--amber);color:var(--amber);font-weight:700;margin-bottom:26px;transition:background .3s,color .3s}
+.step:hover::before{background:var(--amber);color:var(--deep)}
+.step h3{color:#fff;font-size:1.35rem;margin-bottom:10px}
+.step p{color:#B9D0D4;font-size:1rem}
+/* testimonials */
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:56px}
+.q{padding:4px 36px;border-left:2px solid var(--line);transition:border-color .3s}
+.q:first-child{padding-left:0;border-left:0}
+.q:hover{border-color:var(--teal)}
+.q:first-child:hover{border-color:transparent}
+.q::before{content:"“";display:block;font:500 4.2rem/.7 var(--serif);color:var(--amber);margin-bottom:10px}
+.q p{font:400 1.2rem/1.55 var(--serif);color:var(--ink)}
+.q cite{display:block;margin-top:22px;font-style:normal;font-size:.9rem;color:var(--muted)}
+.q cite b{display:block;color:var(--deep)}
+/* assessment */
+.assess{background:var(--mist)}
+.ag{display:grid;grid-template-columns:1fr 340px;gap:32px;margin-top:48px;align-items:start}
+.list{background:#fff;border-radius:14px;overflow:hidden}
+.qr{display:grid;grid-template-columns:1fr auto;gap:10px 28px;align-items:center;padding:20px 28px;border-bottom:1px solid var(--line);border-left:0;border-right:0;border-top:0;transition:background .2s}
+.qr:last-child{border-bottom:0}
+.qr:hover{background:#F8FBFB}
+.qr legend{float:left;width:100%;font-weight:500;font-size:.97rem;line-height:1.5;grid-column:1}
+.sg{display:flex;gap:6px}
+.sg label{position:relative}
+.sg input{position:absolute;opacity:0;inset:0;cursor:pointer}
+.sg span{display:block;padding:7px 13px;border-radius:999px;border:1.5px solid var(--line);font-size:.82rem;font-weight:500;color:var(--muted);white-space:nowrap;cursor:pointer;transition:border-color .2s,background .2s,color .2s}
+.sg label:hover span{border-color:var(--teal);color:var(--deep)}
+.sg input:checked+span{background:var(--deep);border-color:var(--deep);color:#fff}
+.sg input:focus-visible+span{outline:3px solid var(--amber);outline-offset:2px}
+.score{position:sticky;top:104px;background:#fff;border-radius:14px;padding:34px 30px;text-align:center}
+.ring{--p:0;width:176px;height:176px;margin:0 auto 22px;border-radius:50%;background:conic-gradient(var(--teal) calc(var(--p)*1%),var(--ice) 0);display:grid;place-items:center;position:relative;transition:background .4s}
+.ring::before{content:"";position:absolute;inset:14px;border-radius:50%;background:#fff}
+.ring b{position:relative;font-size:2.6rem;font-weight:800;color:var(--deep);letter-spacing:-.03em}
+.score small{display:block;color:var(--muted);font-size:.86rem;margin-bottom:6px}
+.score h3{margin-bottom:8px}
+.score p{color:var(--muted);font-size:.95rem;margin:0 auto 20px;line-height:1.6}
+.score .btn[hidden]{display:none}
+/* booking */
+.book{padding-top:104px}
+.bx{display:grid;grid-template-columns:5fr 7fr;border-radius:20px;overflow:hidden;box-shadow:0 24px 60px rgba(10,63,74,.14)}
+.bl{background:var(--deep);color:#fff;padding:56px 48px}
+.bl h2{color:#fff;font-size:clamp(1.8rem,2.8vw,2.4rem)}
+.bl .lead{color:#B9D0D4;font-size:1.1rem}
+.mail{margin-top:36px;padding-top:24px;border-top:1px solid rgba(255,255,255,.2);color:#B9D0D4;font-size:.95rem}
+.mail a{color:#fff;font-weight:600;text-decoration:none;border-bottom:2px solid var(--amber)}
+.mail a:hover{color:var(--amber)}
+form{padding:56px 48px;display:grid;grid-template-columns:1fr 1fr;gap:22px 20px;background:#fff}
+.f{display:flex;flex-direction:column;gap:6px}
+.f.full{grid-column:1/-1}
+.f label{font-size:.85rem;font-weight:600;color:var(--deep)}
+.f input,.f select,.f textarea{font:inherit;font-size:.97rem;color:var(--ink);padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:#fff;width:100%;transition:border-color .2s,box-shadow .2s}
+.f textarea{min-height:110px;resize:vertical}
+.f input:hover,.f select:hover,.f textarea:hover{border-color:var(--teal)}
+.f input:focus,.f select:focus,.f textarea:focus{outline:none;border-color:var(--deep);box-shadow:0 0 0 4px rgba(30,124,136,.16)}
+.hp{position:absolute;left:-9999px}
+#msg{grid-column:1/-1;min-height:1.5em;color:var(--deep);font-weight:600;font-size:.95rem}
+/* calendar */
+.cal-wrap{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:4px}
+.cal{background:#fff;border:1.5px solid var(--line);border-radius:12px;padding:18px;user-select:none}
+.cal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+.cal-head span{font-weight:700;font-size:.97rem;color:var(--deep)}
+.cal-nav{background:none;border:1.5px solid var(--line);border-radius:8px;width:32px;height:32px;font-size:1.3rem;color:var(--deep);display:grid;place-items:center;transition:background .2s,border-color .2s}
+.cal-nav:hover{background:var(--mist);border-color:var(--teal)}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:3px;text-align:center}
+.cal-day-name{font-size:.72rem;font-weight:700;color:var(--muted);padding:4px 0;text-transform:uppercase;letter-spacing:.04em}
+.cal-day{font-size:.88rem;font-weight:500;padding:7px 4px;border-radius:8px;cursor:pointer;color:var(--ink);border:1.5px solid transparent;transition:background .18s,color .18s,border-color .18s;line-height:1}
+.cal-day:hover:not(.cal-day--disabled):not(.cal-day--empty){background:var(--mist);border-color:var(--teal);color:var(--deep)}
+.cal-day--today{color:var(--teal);font-weight:700}
+.cal-day--selected{background:var(--deep)!important;color:#fff!important;border-color:var(--deep)!important}
+.cal-day--disabled{color:var(--line);cursor:default;pointer-events:none}
+.cal-day--empty{cursor:default}
+/* time slots */
+.cal-times{background:#fff;border:1.5px solid var(--line);border-radius:12px;padding:18px;display:flex;flex-direction:column}
+.cal-times-label{font-size:.87rem;font-weight:600;color:var(--deep);margin-bottom:12px}
+.cal-slots{display:grid;grid-template-columns:1fr 1fr;gap:8px;overflow-y:auto;max-height:260px}
+.cal-slot{font-size:.84rem;font-weight:500;padding:9px 10px;border-radius:8px;border:1.5px solid var(--line);color:var(--ink);background:#fff;cursor:pointer;transition:background .18s,border-color .18s,color .18s;text-align:center}
+.cal-slot:hover{background:var(--mist);border-color:var(--teal);color:var(--deep)}
+.cal-slot--selected{background:var(--deep);border-color:var(--deep);color:#fff}
+.cal-selected{font-size:.9rem;font-weight:600;color:var(--teal);margin-top:10px;min-height:1.4em}
+@media(max-width:960px){.cal-wrap{grid-template-columns:1fr}.cal-slots{grid-template-columns:repeat(3,1fr);max-height:none}}
+/* footer */
+.foot{background:#072C34;color:#9FB8BD;padding:60px 0 28px;font-size:.94rem;margin-top:104px}
+.fg{display:flex;justify-content:space-between;gap:48px;flex-wrap:wrap}
+.foot .brand{color:#fff;margin-bottom:14px}
+.foot .brand b{background:#fff;color:var(--deep)}
+.foot p{max-width:40ch;line-height:1.6}
+.fl{display:flex;flex-direction:column;gap:8px}
+.foot a:not(.brand){text-decoration:none;transition:color .2s}
+.foot a:not(.brand):hover{color:var(--amber)}
+.copy{margin-top:44px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12);font-size:.85rem}
+@media(max-width:960px){
+section{padding:72px 0}
+.hero{padding:44px 0 64px}
+.hero .wrap,.two,.ag,.bx{grid-template-columns:1fr;gap:44px}
+.arch{margin:0 30px 30px 0;max-width:380px}
+.badge{left:-8px}
+.sticky,.score{position:static}
+.steps{grid-template-columns:1fr;gap:36px}
+.steps::before{display:none}
+.quotes{grid-template-columns:1fr;gap:36px}
+.q,.q:first-child{padding:0 0 0 24px;border-left:2px solid var(--line)}
+.band li{padding:2px 16px 2px 0;border:0;width:50%}
+.vals{grid-template-columns:1fr}
+.qr{grid-template-columns:1fr;padding:20px}
+.sg{flex-wrap:wrap}
+.bl,form{padding:36px 28px}
+form{grid-template-columns:1fr}
+.links a:not(.btn){display:none}
+.brand span{display:none}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap nav">
+<a class="brand" href="#top"><b>MM</b><span>Michael Marwa</span></a>
+<nav class="links" aria-label="Main"><a href="#about">About</a><a href="#services">Services</a><a href="#approach">Approach</a><a href="#assessment">Assessment</a><a class="btn" href="#book">Book a consultation</a></nav>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap">
+<div>
+<h1>Architecture for accountability, built on dignity.</h1>
+<p class="lead">I help humanitarian and development organizations prevent and respond to sexual exploitation, abuse, and harassment, turning policy into practice and safeguarding into culture.</p>
+<div class="cta"><a class="btn" href="#book">Book a consultation</a><a class="btn out" href="#services">Explore services</a></div>
+</div>
+<div class="arch">
+<img src="michael.jpg" alt="Michael Marwa, PSEAH and safeguarding consultant" width="667" height="887" fetchpriority="high">
+<div class="badge"><div><b>SEAH Accredited Investigator</b><span>Trained by OSACO</span></div></div>
+</div>
+</div></section>
+
+<div class="band"><div class="wrap"><p>Works with</p>
+<ul><li>Government ministries and agencies</li><li>National and international NGOs</li><li>Private sector companies</li><li>Faith based organisations</li></ul></div></div>
+
+<section class="about" id="about"><div class="wrap two">
+<div><h2>A specialist in protecting people, not just ticking boxes</h2></div>
+<div class="body">
+<p>I am Michael Marwa, a Gender and Development Specialist and SEAH Accredited Investigator with more than 10 years of experience across child rights, PSEAH, youth development, social justice, and sexual and reproductive health and rights. I work with NGOs, UN agencies, donors, and civil society organizations to strengthen safeguarding systems, advance child protection, and build institutional capacity at national, regional, and international levels.</p>
+<p>As a qualified Social Audit Fellow and a SEAH Accredited Investigator trained by <a href="https://www.osacogroup.com" target="_blank" rel="noopener" style="color:var(--teal);font-weight:600">OSACO</a>, I bring together policy analysis, psychosocial insight, and investigative expertise, including for emerging risks in digital environments.</p>
+<div class="vals">
+<div class="val"><b>Survivor-centered</b><span>The dignity, safety, and wishes of those affected guide every decision.</span></div>
+<div class="val"><b>Independence</b><span>Impartial assessments and honest findings, free from organizational pressure.</span></div>
+<div class="val"><b>Practical rigor</b><span>Standards-aligned work that turns into clear actions your teams can implement.</span></div>
+<div class="val"><b>Confidentiality</b><span>Allegations and sensitive information are handled with the strictest discretion.</span></div>
+</div></div></div></section>
+
+<section class="services" id="services"><div class="wrap two">
+<div class="sticky"><h2>A complete safeguarding framework, built around your mission</h2><p class="lead">From policy to practice, support that prevents harm and responds to it with clarity and accountability.</p></div>
+<div>
+<details name="svc" open><summary>PSEAH Policy &amp; Framework Development</summary><div class="dd"><p>Drafting and strengthening PSEAH policies, codes of conduct, and reporting mechanisms aligned with IASC and donor standards. Practical frameworks your teams can use.</p><a href="#book" data-svc="PSEAH Policy &amp; Framework Development">Enquire about this service</a></div></details>
+<details name="svc"><summary>Safeguarding Audit &amp; Risk Assessment</summary><div class="dd"><p>Independent reviews of your safeguarding posture, risk mapping across programs and partners, and a prioritized roadmap to close gaps before harm occurs.</p><a href="#book" data-svc="Safeguarding Audit &amp; Risk Assessment">Enquire about this service</a></div></details>
+<details name="svc"><summary>Training &amp; Capacity Building</summary><div class="dd"><p>Tailored workshops for staff, leadership, and partners, from safeguarding fundamentals to investigator skills and survivor-centered response practice.</p><a href="#book" data-svc="Training &amp; Capacity Building">Enquire about this service</a></div></details>
+<details name="svc"><summary>Investigation Support</summary><div class="dd"><p>Safe, confidential, and survivor-centered guidance on handling allegations, including investigation design, oversight, and lessons learned.</p><a href="#book" data-svc="Investigation Support">Enquire about this service</a></div></details>
+<details name="svc"><summary>Organizational Culture &amp; Strategy</summary><div class="dd"><p>Embedding safeguarding into governance, leadership accountability, and organizational culture so protection becomes everyone’s responsibility.</p><a href="#book" data-svc="Organizational Culture &amp; Strategy">Enquire about this service</a></div></details>
+</div></div></section>
+
+<section class="approach" id="approach"><div class="wrap">
+<h2>A clear, respectful path from question to lasting change</h2>
+<div class="steps">
+<div class="step"><h3>Listen &amp; scope</h3><p>A confidential conversation to understand your organization, context, and the safeguarding question in front of you.</p></div>
+<div class="step"><h3>Assess &amp; design</h3><p>I review your current systems and risks, then design a tailored approach: audit, training, policy, or investigation support.</p></div>
+<div class="step"><h3>Deliver &amp; embed</h3><p>We implement the work and equip your team, so safeguarding capacity stays with your organization long after the engagement.</p></div>
+</div></div></section>
+
+<section><div class="wrap">
+<h2>Endorsements from partners and institutions</h2>
+<div class="quotes">
+<blockquote class="q"><p>Michael brought clarity and rigor to our safeguarding review. His survivor-centered approach and investigative insight helped us close gaps we had missed for years.”</p><cite><b>Safeguarding Lead</b>International NGO</cite></blockquote>
+<blockquote class="q"><p>A rare blend of policy depth and field reality. The training he delivered left our team better equipped and more confident to prevent and respond to SEAH.”</p><cite><b>Programme Director</b>Development Partner</cite></blockquote>
+<blockquote class="q"><p>Thoughtful, discreet, and deeply credible. Michael’s guidance on our PSEAH framework gave our leadership the confidence to act decisively.”</p><cite><b>Country Representative</b>Civil Society Organization</cite></blockquote>
+</div></div></section>
+
+<section class="assess" id="assessment"><div class="wrap">
+<h2>How strong is your safeguarding system?</h2>
+<p class="lead">Rate your organisation across ten core areas. Your indicative score updates as you answer, and a suggested next step appears when you finish.</p>
+<div class="ag"><div class="list" id="qs"></div>
+<aside class="score" aria-live="polite"><div class="ring" id="ring"><b id="rp">0%</b></div><small id="rs">0 of 10 answered</small><h3 id="rt">Your safeguarding score</h3><p id="rx">Answer all ten areas to see your rating and a tailored next step.</p><a class="btn" href="#book" id="rb" hidden>Book a consultation</a></aside>
+</div></div></section>
+
+<section class="book" id="book" style="padding-bottom:0"><div class="wrap"><div class="bx">
+<div class="bl"><h2>Let’s begin with a confidential conversation</h2><p class="lead">Share a few details about your organization and the support you’re seeking. Every request is handled with discretion and never shared.</p>
+<p class="mail">Prefer email?<br><a href="mailto:michael.kehongoh@sematanzania.org">michael.kehongoh@sematanzania.org</a><br>Available globally.</p></div>
+<form name="consultation" method="POST" action="/contact" id="cf">
+<p class="hp"><label>Leave this empty <input name="bot-field"></label></p>
+<div class="f"><label for="n">Your name *</label><input id="n" name="name" required autocomplete="name"></div>
+<div class="f"><label for="o">Organization</label><input id="o" name="organization" autocomplete="organization"></div>
+<div class="f"><label for="e">Email *</label><input type="email" id="e" name="email" required autocomplete="email"></div>
+<div class="f"><label for="lo">Location</label><input id="lo" name="location"></div>
+<div class="f"><label for="s">What do you need support with?</label><select id="s" name="service"><option value="">Select a service</option><option>PSEAH Policy &amp; Framework Development</option><option>Safeguarding Audit &amp; Risk Assessment</option><option>Training &amp; Capacity Building</option><option>Investigation Support</option><option>Organizational Culture &amp; Strategy</option><option>Other</option></select></div>
+<div class="f full" id="dt-field">
+  <label>Preferred date &amp; time</label>
+  <div class="cal-wrap">
+    <!-- Calendar panel -->
+    <div class="cal" id="cal">
+      <div class="cal-head">
+        <button type="button" class="cal-nav" id="cal-prev" aria-label="Previous month">&#8249;</button>
+        <span id="cal-title"></span>
+        <button type="button" class="cal-nav" id="cal-next" aria-label="Next month">&#8250;</button>
+      </div>
+      <div class="cal-grid" id="cal-grid"></div>
+    </div>
+    <!-- Time slots panel -->
+    <div class="cal-times" id="cal-times">
+      <p class="cal-times-label" id="cal-times-label">Select a date to see available times</p>
+      <div class="cal-slots" id="cal-slots"></div>
+    </div>
+  </div>
+  <!-- Hidden inputs that get submitted with the form -->
+  <input type="hidden" name="appointment_date" id="apt-date">
+  <input type="hidden" name="appointment_time" id="apt-time">
+  <input type="hidden" name="timeframe" id="apt-display">
+  <p class="cal-selected" id="cal-selected" aria-live="polite"></p>
+</div>
+<div class="f full"><label for="m">Tell me more</label><textarea id="m" name="message"></textarea></div>
+<div class="f full"><button class="btn" type="submit" style="align-self:flex-start">Send request</button></div>
+<p id="msg" role="status"></p>
+</form></div></div></section>
+</main>
+
+<footer class="foot"><div class="wrap">
+<div class="fg">
+<div><a class="brand" href="#top"><b>MM</b><span>Michael Marwa</span></a><p>Gender &amp; Development Specialist and SEAH Accredited Investigator, helping organizations prevent and respond to harm with dignity, rigor, and accountability.</p></div>
+<div class="fl"><a href="#about">About</a><a href="#services">Services</a><a href="#approach">Approach</a><a href="#book">Book a consultation</a></div>
+<div class="fl"><a href="mailto:michael.kehongoh@sematanzania.com">michael.kehongoh@sematanzania.com</a><span>Available globally</span></div>
+</div>
+<p class="copy">© 2026 Michael Marwa. All rights reserved.</p>
+</div></footer>
+
+<script>
+const $=s=>document.querySelector(s);
+document.querySelectorAll(".dd a").forEach(a=>a.addEventListener("click",()=>{$("#s").value=a.dataset.svc}));
+const Q=["A written safeguarding / PSEAH policy approved by leadership","A code of conduct signed by all staff, volunteers and associates","Safe recruitment: background checks and reference verification","Mandatory safeguarding training for all staff and volunteers","Multiple, accessible and trusted channels for reporting concerns","Survivor-centred response procedures and clear referral pathways","Trained safeguarding focal points or an active safeguarding committee","Documented investigation, disciplinary and accountability procedures","Safeguarding requirements applied to partners and downstream partners","Regular monitoring, review and learning to keep safeguarding effective"];
+const L=["Not in place","Emerging","Established","Fully embedded"];
+const T=[[25,"Critical gaps","Core safeguarding foundations are missing or not yet working. A structured audit and a first policy framework would give you the fastest protection.","Safeguarding Audit & Risk Assessment"],[50,"Developing","Some building blocks exist but are not consistent or embedded. A gap assessment and a prioritized roadmap would turn them into a working system.","Safeguarding Audit & Risk Assessment"],[75,"Established","Your system is in place and largely functioning. Targeted training and testing of your reporting and response procedures would close the remaining gaps.","Training & Capacity Building"],[101,"Strong","Your safeguarding is well embedded. An independent review and a culture and leadership check can keep it effective as your programs grow.","Organizational Culture & Strategy"]];
+const qs=$("#qs");
+Q.forEach((q,i)=>{const f=document.createElement("fieldset");f.className="qr";
+f.innerHTML=`<legend>${i+1}. ${q}</legend><div class="sg">`+L.map((l,v)=>`<label><input type="radio" name="q${i}" value="${v}"><span>${l}</span></label>`).join("")+`</div>`;qs.appendChild(f)});
+let svc="";
+qs.addEventListener("change",()=>{const a=Q.map((_,i)=>document.querySelector(`input[name=q${i}]:checked`)).filter(Boolean);
+const n=a.length,p=n?Math.round(a.reduce((s,x)=>s+ +x.value,0)/(n*3)*100):0;
+$("#ring").style.setProperty("--p",p);$("#rp").textContent=p+"%";$("#rs").textContent=n+" of 10 answered"+(n<10?" (indicative)":"");
+if(n<10){$("#rt").textContent="Your safeguarding score";$("#rx").textContent="Answer all ten areas to see your rating and a tailored next step.";$("#rb").hidden=true;return}
+const t=T.find(x=>p<x[0]);$("#rt").textContent=t[1];$("#rx").textContent=t[2];svc=t[3];$("#rb").hidden=false});
+$("#rb").addEventListener("click",()=>{$("#s").value=svc});
+const cf=$("#cf"),msg=$("#msg");
+cf.addEventListener("submit",e=>{e.preventDefault();msg.textContent="Sending…";
+fetch("/contact",{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},body:new URLSearchParams(new FormData(cf)).toString()})
+.then(r=>r.json())
+.then(data=>{if(!data.ok)throw new Error(data.error||"unknown");cf.reset();msg.textContent="Request sent. Michael will reply to your email shortly."})
+.catch(()=>{msg.textContent="The request could not be sent. Please email michael.kehongoh@sematanzania.org directly."})});
+// ── Calendar & time picker ──────────────────────────────────────
+(function(){
+  const DAYS = ["Su","Mo","Tu","We","Th","Fr","Sa"];
+  const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  // Time slots: 8am–5pm, every 30 min, Mon–Fri only
+  const SLOTS = [];
+  for(let h=8;h<17;h++){
+    SLOTS.push(`${h>12?h-12:h}:00 ${h>=12?"PM":"AM"}`);
+    SLOTS.push(`${h>12?h-12:h}:30 ${h>=12?"PM":"AM"}`);
+  }
+
+  let cur = new Date(); cur.setDate(1);
+  let selDate = null, selTime = null;
+
+  const grid    = document.getElementById("cal-grid");
+  const title   = document.getElementById("cal-title");
+  const prev    = document.getElementById("cal-prev");
+  const next    = document.getElementById("cal-next");
+  const slotsEl = document.getElementById("cal-slots");
+  const label   = document.getElementById("cal-times-label");
+  const display = document.getElementById("cal-selected");
+  const aptDate = document.getElementById("apt-date");
+  const aptTime = document.getElementById("apt-time");
+  const aptDisp = document.getElementById("apt-display");
+
+  function render(){
+    const y = cur.getFullYear(), m = cur.getMonth();
+    title.textContent = MONTHS[m]+" "+y;
+    const today = new Date(); today.setHours(0,0,0,0);
+    const first = new Date(y,m,1).getDay();
+    const days  = new Date(y,m+1,0).getDate();
+    grid.innerHTML = DAYS.map(d=>`<div class="cal-day-name">${d}</div>`).join("");
+    for(let i=0;i<first;i++) grid.innerHTML+=`<div class="cal-day cal-day--empty"></div>`;
+    for(let d=1;d<=days;d++){
+      const date = new Date(y,m,d);
+      const dow  = date.getDay();
+      const past = date < today;
+      const weekend = dow===0||dow===6;
+      const isSel = selDate && date.toDateString()===selDate.toDateString();
+      const isToday = date.toDateString()===today.toDateString();
+      let cls = "cal-day";
+      if(past||weekend) cls+=" cal-day--disabled";
+      if(isToday&&!past) cls+=" cal-day--today";
+      if(isSel) cls+=" cal-day--selected";
+      grid.innerHTML+=`<button type="button" class="${cls}" data-date="${date.toISOString()}">${d}</button>`;
+    }
+    grid.querySelectorAll(".cal-day:not(.cal-day--disabled):not(.cal-day--empty)").forEach(btn=>{
+      btn.addEventListener("click",()=>pickDate(new Date(btn.dataset.date)));
+    });
+    // disable prev if current month <= today's month
+    const todayFirst = new Date(today.getFullYear(),today.getMonth(),1);
+    prev.disabled = cur <= todayFirst;
+    prev.style.opacity = prev.disabled?"0.35":"1";
+  }
+
+  function pickDate(date){
+    selDate = date; selTime = null;
+    aptDate.value = ""; aptTime.value = ""; aptDisp.value = "";
+    display.textContent = "";
+    render();
+    renderSlots(date);
+  }
+
+  function renderSlots(date){
+    const fmt = date.toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+    label.textContent = fmt;
+    slotsEl.innerHTML = SLOTS.map(t=>`<button type="button" class="cal-slot" data-time="${t}">${t}</button>`).join("");
+    slotsEl.querySelectorAll(".cal-slot").forEach(btn=>{
+      btn.addEventListener("click",()=>pickTime(btn));
+    });
+  }
+
+  function pickTime(btn){
+    slotsEl.querySelectorAll(".cal-slot").forEach(b=>b.classList.remove("cal-slot--selected"));
+    btn.classList.add("cal-slot--selected");
+    selTime = btn.dataset.time;
+    const fmt = selDate.toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+    display.textContent = "✓ "+fmt+" at "+selTime;
+    aptDate.value = selDate.toISOString().split("T")[0];
+    aptTime.value = selTime;
+    aptDisp.value = fmt+" at "+selTime;
+  }
+
+  prev.addEventListener("click",()=>{ cur.setMonth(cur.getMonth()-1); render(); });
+  next.addEventListener("click",()=>{ cur.setMonth(cur.getMonth()+1); render(); });
+  render();
+})();
+</script>
+</body>
+</html>

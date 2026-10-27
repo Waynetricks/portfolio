@@ -1,0 +1,14 @@
+{
+  "name": "michael-marwa-site",
+  "version": "1.0.0",
+  "description": "Michael Marwa PSEAH Consultant website with email backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.19.2",
+    "nodemailer": "6.9.13",
+    "dotenv": "16.4.5"
+  }
+}
